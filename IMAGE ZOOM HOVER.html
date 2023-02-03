@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>IMAGE HOVER</title>
+        <style>
+            *{
+               box-sizing: border-box;
+            }
+
+            .zoom {
+              padding: 50px;
+              background-color:;
+              transition: transform .2s;
+              width: 200px;
+              height: 200px;
+              margin: 0 auto;  
+            }
+
+            .zoom:hover{
+                -ms-transform: scale(1.5);
+                -webkit-transform: scale(1.5);
+                transform: scale(1.5);
+            }
+            #A{
+                height: 400px;
+                width: 400px;
+            }
+        </style>
+    </head>
+    <body>
+               <h1> IMAGE ZOOM on Hover</h1>
+               
+               <div class="zoom">
+                   <img id="A" src="https://i.pinimg.com/736x/fb/11/5a/fb115a965aa564e267f8e57883c0cf1c.jpg" name="yadav/jpg">
+               </div>
+            </body>
+        </html>           
